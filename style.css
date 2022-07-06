@@ -1,19 +1,130 @@
 body {
   font-family: 'Crete Round', serif;
-  margin: 0%;
-
-}
-h1 {
-  font-size: 38px;
-}
-section {
   
-  height: 600px;
+}
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.head-contain {
   background-image: url(images/donation8.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  height: 500px;
+  display: ;
   
 }
-.headline-1 {
- 
+.headline1 {
+  text-align: center;
+  padding: 50px 0px;
+  margin: auto;
+  display: block;
+}
+.button{
+  width: 20px 40px;
+text-align: ;
+text-decoration: none;
+background-color: orange;
+padding: 10px 40px;
+border: 2px solid red;
+margin-top: 20px;
+}
+.donet-today{
+ text-align: center;
+ margin: ;
+}
+.donet-today h2 {
+  margin: 57px 0px;
+  font-size: 50px;
+  text-align: center;
+  display: block ;
+}
+
+.donet-today p{
+   
+    width: 50%;
+    display: block;
+    margin: auto;
+    text-align: center;
+    line-height: 25px;
+    text-transform: capitalize;
+    
+}
+.ammount-repar {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.ammount {
+  width: 120px;
+  background-color: gray;
+  text-align: center;
+  padding: 20px 10px;
+  margin: 2;
+  margin-right: 10px;
+}
+
+  
+#active {
+  background-color: bisque;
+  border: 1px solid red;
+}
+
+.inpute {
+   
+
+}
+.input-donet {
+  text-align: center;
+  margin: 50px 0;
+
+
+}
+.input-donet input[type=number]{
+  border: none;
+  border-bottom: 1px solid #ddd;
+  
+
+}
+
+.inpute-feld{
+  width: 60%;
+}
+.input-donet input:focus{
+  outline: none;
+   
+
+}
+.input-donet input::placeholder  {
+  opacity: 1; /* Firefox */
+  
+  text-align: center;
+}
+.input-feld2 {
+  padding: 10px 25px;
+  margin: 15px 0;
+  background-color: orange;
+  color: white;
+}
+.email-subscribe{
+  width: 60%;
+  height:150px ;
+  background-color: bisque;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.last-input {
+  font-size: 25px;
+  padding: 10px 40px;
+  border: none;
+}
+.last-input1 {
+  font-size: 25px;
+  padding: 10px 40px;
+  background-color: orange;
+  border: none;
 }
