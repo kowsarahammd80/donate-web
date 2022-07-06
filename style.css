@@ -188,7 +188,9 @@ h6{
   text-align: center;
   color: bisque;
 }
-.extra{
-  display: flex;
+.extra-marks{
+  text-align: center;
+  
+  padding-bottom: 10px 0;
 
 }
