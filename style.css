@@ -34,7 +34,7 @@ margin-top: 20px;
 }
 .donet-today{
  text-align: center;
- margin: ;
+ 
 }
 .donet-today h2 {
   margin: 57px 0px;
@@ -74,10 +74,7 @@ margin-top: 20px;
   border: 1px solid red;
 }
 
-.inpute {
-   
 
-}
 .input-donet {
   text-align: center;
   margin: 50px 0;
@@ -129,4 +126,51 @@ margin-top: 20px;
   padding: 10px 40px;
   background-color: orange;
   border: none;
+} 
+
+
+#donet-plan {
+  margin: 40px auto;
 }
+.donat-titel {
+  width: 100%;
+  margin: auto;
+  display: block;
+  text-align: center;
+}
+
+.donat-titel h1 {
+  font-size: 53px;
+  font-weight: bolder;
+  margin: 10px auto;
+}
+
+.donat-repar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 98px auto;
+  width: 100%;
+}
+.donet-box {
+  width: 368px;
+  background: rgb(202, 202, 140);
+  margin-right: 13px;
+  
+}
+.donet-box a {
+  width: 100%;
+  display: block;
+  padding: 20px;
+}
+.donet-box h4 {
+  padding: 20px;
+}
+.donet-box p {
+  /*! width: 100%; */
+  padding: 20px;
+  display: block;
+  text-align: left;
+ 
+}
+
